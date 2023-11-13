@@ -1,6 +1,7 @@
-import { UFType } from "./uf_type";
+import { InstitutionModel } from "../institution_model";
+import { UFType } from "../uf_type";
 
-export type LocationModel = {
+export type LocationWithInstitution = {
   id?: string,
   lat?: number,
   long?: number,
@@ -11,4 +12,5 @@ export type LocationModel = {
   number?: string,
   complement?: string,
   postalCode?: string,
+  institution?: InstitutionModel 
 }

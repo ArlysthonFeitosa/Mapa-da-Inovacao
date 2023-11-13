@@ -1,5 +1,5 @@
 import { InstitutionModel } from "../../../models/institution_model"
-import { LocationModel } from "../../../models/location_model"
+import { LocationModel } from "../../../models/location/location_model"
 
 export interface AddInstitutionLocation {
   execute(data: AddInstitutionLocation.Params): Promise<AddInstitutionLocation.Result>
