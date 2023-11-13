@@ -29,6 +29,8 @@ model Media {
   uploadedAt DateTime @default(now())
 
   Institution Institution[]
+  Location    Location?     @relation(fields: [locationId], references: [id])
+  locationId  String?
 }
 
 model Location {
@@ -42,6 +44,7 @@ model Location {
   number        String?
   complement    String?
   postalCode    String?
+  medias        Media[]
   Institution   Institution? @relation(fields: [institutionId], references: [id], onDelete: Cascade, onUpdate: Cascade)
   institutionId String?
 }

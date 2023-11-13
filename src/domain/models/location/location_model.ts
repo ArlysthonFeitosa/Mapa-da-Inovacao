@@ -1,3 +1,4 @@
+import { MediaModel } from "../media_model";
 import { UFType } from "../uf_type";
 
 export type LocationModel = {
@@ -11,4 +12,5 @@ export type LocationModel = {
   number?: string,
   complement?: string,
   postalCode?: string,
+  medias: MediaModel[]
 }
