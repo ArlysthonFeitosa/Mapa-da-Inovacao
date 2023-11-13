@@ -1,6 +1,6 @@
-import { CategoryType } from "../../models/category_type"
+import { CategoryType } from "../../types/category_type"
 import { InstitutionModel } from "../../models/institution_model"
-import { UFType } from "../../models/uf_type"
+import { UFType } from "../../types/uf_type"
 
 export interface GetInstitutions {
   execute(data: GetInstitutions.Params): Promise<GetInstitutions.Result>

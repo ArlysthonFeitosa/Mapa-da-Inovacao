@@ -1,5 +1,5 @@
 import { MediaModel } from "../media_model";
-import { UFType } from "../uf_type";
+import { UFType } from "../../types/uf_type";
 
 export type LocationModel = {
   id?: string,

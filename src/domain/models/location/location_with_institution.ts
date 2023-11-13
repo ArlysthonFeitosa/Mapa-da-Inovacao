@@ -1,5 +1,5 @@
 import { InstitutionModel } from "../institution_model";
-import { UFType } from "../uf_type";
+import { UFType } from "../../types/uf_type";
 
 export type LocationWithInstitution = {
   id?: string,

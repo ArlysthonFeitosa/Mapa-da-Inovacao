@@ -1,4 +1,4 @@
-import { CategoryType } from "../../models/category_type"
+import { CategoryType } from "../../types/category_type"
 import { InstitutionModel } from "../../models/institution_model"
 
 export interface UpdateInstitution {
