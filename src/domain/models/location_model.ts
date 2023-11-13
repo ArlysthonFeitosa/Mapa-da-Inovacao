@@ -1,5 +1,6 @@
 
-export type Location = {
+export type LocationModel = {
+  id?: string,
   lat?: number,
   long?: number,
   uf?: string,

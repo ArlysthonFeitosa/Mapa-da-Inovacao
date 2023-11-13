@@ -1,14 +1,16 @@
-import { Category } from "./category_model"
-import { Link } from "./link_model"
-import { Location } from "./location_model"
-import { Media } from "./media_model"
+import { CategoryType } from "./category_model"
+import { Link as LinkModel } from "./link_model"
+import { LocationModel } from "./location_model"
+import { MediaModel } from "./media_model"
 
 export type InstitutionModel = {
   id?: string,
   name: string,
-  picture: Media,
+  picture: MediaModel,
   description?: string,
-  locations: Location[],
-  categories: Category[],
-  links: Link[],
+  locations: LocationModel[],
+  categories: CategoryType[],
+  links: LinkModel[],
+  childOf: InstitutionModel[],
+  children: InstitutionModel[],
 }
