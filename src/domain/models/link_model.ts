@@ -1,6 +1,6 @@
 import { LinkCategory } from "./link_category_model";
 
-export type Link = {
+export type LinkModel = {
   id?: string,
   name: string,
   content: string,

@@ -1,15 +1,15 @@
 import { CategoryType } from "./category_type"
-import { Link as LinkModel } from "./link_model"
+import { LinkModel as LinkModel } from "./link_model"
 import { LocationModel } from "./location_model"
 import { MediaModel } from "./media_model"
 
 export type InstitutionModel = {
   id?: string,
   name: string,
-  picture?: MediaModel,
   description?: string,
-  locations: LocationModel[],
   categories: CategoryType[],
+  picture?: MediaModel,
+  locations: LocationModel[],
   links: LinkModel[],
   childOf: InstitutionModel[],
   children: InstitutionModel[],
