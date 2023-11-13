@@ -14,8 +14,8 @@ model Institution {
   id          String        @id @default(cuid())
   name        String
   description String
-  picture     Media         @relation(fields: [pictureId], references: [id])
-  pictureId   String        @unique
+  picture     Media?        @relation(fields: [pictureId], references: [id])
+  pictureId   String?
   locations   Location[]
   categories  String[]
   links       Link[]
@@ -28,7 +28,7 @@ model Media {
   path       String
   uploadedAt DateTime @default(now())
 
-  Institution Institution?
+  Institution Institution[]
 }
 
 model Location {

@@ -6,7 +6,7 @@ import { MediaModel } from "./media_model"
 export type InstitutionModel = {
   id?: string,
   name: string,
-  picture: MediaModel,
+  picture?: MediaModel,
   description?: string,
   locations: LocationModel[],
   categories: CategoryType[],
