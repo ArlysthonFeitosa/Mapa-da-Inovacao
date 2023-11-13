@@ -1,4 +1,4 @@
-import { CategoryType } from "./category_model"
+import { CategoryType } from "./category_type"
 import { Link as LinkModel } from "./link_model"
 import { LocationModel } from "./location_model"
 import { MediaModel } from "./media_model"
