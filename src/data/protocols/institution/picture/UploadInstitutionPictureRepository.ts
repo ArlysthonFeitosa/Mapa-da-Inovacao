@@ -11,5 +11,5 @@ export namespace UploadInstitutionPictureRepository {
   }
 
   export type Params = UploadInstitutionPictureModel
-  export type Result = InstitutionModel
+  export type Result = InstitutionModel | null
 }

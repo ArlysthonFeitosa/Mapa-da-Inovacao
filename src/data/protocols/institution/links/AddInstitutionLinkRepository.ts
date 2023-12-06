@@ -12,5 +12,5 @@ export namespace AddInstitutionLinkRepository {
   }
 
   export type Params = AddInstitutionLinkModel
-  export type Result = InstitutionModel
+  export type Result = InstitutionModel | null
 }

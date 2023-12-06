@@ -15,5 +15,5 @@ export namespace UpdateInstitutionRepository {
   }
 
   export type Params = UpdateInstitutionModel
-  export type Result = InstitutionModel
+  export type Result = InstitutionModel | null
 }
