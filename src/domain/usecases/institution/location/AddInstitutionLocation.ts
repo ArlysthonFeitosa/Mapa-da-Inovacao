@@ -12,5 +12,5 @@ export namespace AddInstitutionLocation {
   }
 
   export type Params = AddInstitutionLocationModel
-  export type Result = InstitutionModel
+  export type Result = LocationModel
 }

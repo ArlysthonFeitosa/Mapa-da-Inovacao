@@ -11,5 +11,5 @@ export namespace AddInstitutionChild {
   }
 
   export type Params = AddInstitutionChildModel
-  export type Result = InstitutionModel
+  export type Result = boolean
 }

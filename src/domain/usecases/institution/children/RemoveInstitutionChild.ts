@@ -11,5 +11,5 @@ export namespace RemoveInstitutionChild {
   }
 
   export type Params = RemoveInstitutionChildModel
-  export type Result = InstitutionModel
+  export type Result = boolean
 }

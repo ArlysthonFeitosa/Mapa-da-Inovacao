@@ -1,6 +1,5 @@
 import { InstitutionModel } from "../../../../domain/models/institution_model"
 
-
 export interface AddInstitutionChildRepository {
   execute(data: AddInstitutionChildRepository.Params): Promise<AddInstitutionChildRepository.Result>
 }
@@ -12,5 +11,5 @@ export namespace AddInstitutionChildRepository {
   }
 
   export type Params = AddInstitutionChildModel
-  export type Result = InstitutionModel | null
+  export type Result = boolean
 }

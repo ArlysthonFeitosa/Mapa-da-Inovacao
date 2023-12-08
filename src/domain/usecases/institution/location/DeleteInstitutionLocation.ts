@@ -11,5 +11,5 @@ export namespace DeleteInstitutionLocation {
   }
 
   export type Params = DeleteInstitutionLocationModel
-  export type Result = InstitutionModel
+  export type Result = boolean
 }

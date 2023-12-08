@@ -11,5 +11,5 @@ export namespace DeleteInstitutionLink {
   }
 
   export type Params = DeleteInstitutionLinkModel
-  export type Result = InstitutionModel
+  export type Result = boolean
 }
