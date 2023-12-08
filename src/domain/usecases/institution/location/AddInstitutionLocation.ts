@@ -1,4 +1,3 @@
-import { InstitutionModel } from "../../../models/institution_model"
 import { LocationModel } from "../../../models/location/location_model"
 
 export interface AddInstitutionLocation {

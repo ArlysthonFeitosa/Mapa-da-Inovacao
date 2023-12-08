@@ -1,4 +1,3 @@
-import { LocationModel } from "../../../models/location/location_model"
 import { MediaModel } from "../../../models/media_model"
 
 export interface AddLocationMedia {

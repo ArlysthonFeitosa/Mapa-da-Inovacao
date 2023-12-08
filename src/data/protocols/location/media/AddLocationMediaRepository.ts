@@ -1,4 +1,3 @@
-import { LocationModel } from "../../../../domain/models/location/location_model"
 import { MediaModel } from "../../../../domain/models/media_model"
 
 export interface AddLocationMediaRepository {

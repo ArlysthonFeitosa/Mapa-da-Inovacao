@@ -1,4 +1,3 @@
-import { InstitutionModel } from "../../../../domain/models/institution_model"
 import { LocationModel } from "../../../../domain/models/location/location_model"
 
 export interface AddInstitutionLocationRepository {

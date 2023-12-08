@@ -1,4 +1,3 @@
-import { InstitutionModel } from "../../../../domain/models/institution_model"
 import { MediaModel } from "../../../../domain/models/media_model"
 
 export interface UploadInstitutionPictureRepository {

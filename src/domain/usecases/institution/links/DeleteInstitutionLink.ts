@@ -1,5 +1,3 @@
-import { InstitutionModel } from "../../../models/institution_model"
-
 export interface DeleteInstitutionLink {
   execute(data: DeleteInstitutionLink.Params): Promise<DeleteInstitutionLink.Result>
 }

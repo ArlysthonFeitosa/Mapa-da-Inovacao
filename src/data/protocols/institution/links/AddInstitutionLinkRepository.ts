@@ -1,4 +1,3 @@
-import { InstitutionModel } from "../../../../domain/models/institution_model"
 import { LinkModel } from "../../../../domain/models/link_model"
 
 export interface AddInstitutionLinkRepository {

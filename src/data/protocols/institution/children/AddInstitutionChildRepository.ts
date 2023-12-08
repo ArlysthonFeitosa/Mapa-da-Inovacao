@@ -1,5 +1,3 @@
-import { InstitutionModel } from "../../../../domain/models/institution_model"
-
 export interface AddInstitutionChildRepository {
   execute(data: AddInstitutionChildRepository.Params): Promise<AddInstitutionChildRepository.Result>
 }
